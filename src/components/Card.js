@@ -2,6 +2,7 @@ import { Button, Navbar, Container, Nav, Row, Col } from "react-bootstrap";
 
 export default function Card(props) {
   const { shoes } = props;
+
   return (
     <Row>
       {shoes.map((item) => {

@@ -1,2 +1,6 @@
 - bootstrap
 - img 가져올 때 css파일에서 적용하던가, import로 가져오기
+- navigate(-1)은 뒤로가기
+- 404 페이지는 path="\*"
+- Nested routes : Route안에 Route넣음 (여러 유사 페이지 필요할 때)
+  - element 위치는 Outlet을 통해 지정
