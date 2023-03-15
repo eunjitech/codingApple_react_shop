@@ -1,6 +1,18 @@
-// import React from "react";
-// import { createContext } from "react";
+import React, { createContext, useState } from "react";
 
-// const Context = createContext(null);
+const CountContext = createContext({
+  haha: "x",
+  setHaha: () => {},
+});
 
-// export default Context;
+const ContextProvider = ({ children }) => {
+  const [haha, setHaha] = useState("haha");
+
+  return (
+    <CountContext.Provider value={{ haha, setHaha }}>
+      {children}
+    </CountContext.Provider>
+  );
+};
+
+export { CountContext, ContextProvider };

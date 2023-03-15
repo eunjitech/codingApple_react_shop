@@ -27,7 +27,7 @@ function App() {
       <NavBar />
       <Routes className="me-auto">
         <Route path="/" element={<Home shoes={shoes} />} />
-        <Route path="/detail" element={<Detail />} />
+        <Route path="/detail/:id" element={<Detail shoes={shoes} />} />
         <Route path="/about" element={<About />}>
           <Route path="/about/member" element={<div>맴버</div>} />
           <Route path="/about/location" element={<div>location</div>} />
