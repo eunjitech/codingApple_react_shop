@@ -1,14 +1,11 @@
 import React from "react";
 import Card from "../components/Card";
 import { CountContext } from "../provider/Context";
-import React from "react";
 import axios from "axios";
-import Card from "../components/Card";
 
 function Home(props) {
   const { shoes } = props;
   const value = React.useContext(CountContext);
-  console.log("context", value);
 
   return (
     <>
