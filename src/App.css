@@ -43,3 +43,22 @@
   border-style: cover;
   background-position: center;
 }
+
+a,
+a:hover,
+li,
+li:hover,
+lo,
+lo:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover,
+li:hover,
+lo:hover,
+h1:hover,
+h2:hover,
+h3:hover {
+  font-weight: bold;
+}

@@ -4,3 +4,9 @@
 - 404 페이지는 path="\*"
 - Nested routes : Route안에 Route넣음 (여러 유사 페이지 필요할 때)
   - element 위치는 Outlet을 통해 지정
+- 다수의 Detail page(상세)
+  - `<Route path="/detail/:id" element={ <Detail shoes={shoes}/> }/>`
+- 파라미터 가져오기(react-router-dom)
+  - `import { useParams } from 'react-router-dom'`
+  - `let {id} = useParams();`
+- setTimeout, clearTimeout

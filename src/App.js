@@ -1,22 +1,22 @@
-import logo from "./logo.svg";
-import { useState, useContext } from "react";
-import { Button, Navbar, Container, Nav, Row, Col } from "react-bootstrap";
+import logo from './logo.svg';
+import { useState, useContext } from 'react';
+import { Button, Navbar, Container, Nav, Row, Col } from 'react-bootstrap';
 import {
   BrowserRouter,
   Routes,
   Route,
   useNavigate,
   Outlet,
-} from "react-router-dom";
-import "./App.css";
+} from 'react-router-dom';
+import './App.css';
 // import Context from "./provider/Context";
-import data from "./data";
-import NavBar from "./components/Navbar";
-import Card from "./components/Card";
-import Home from "./pages/Home";
-import Detail from "./pages/Detail";
-import About from "./pages/About";
-import NoPage from "./pages/NoPage";
+import data from './data';
+import NavBar from './components/Navbar';
+import Card from './components/Card';
+import Home from './pages/Home';
+import Detail from './pages/Detail';
+import About from './pages/About';
+import NoPage from './pages/NoPage';
 
 function App() {
   // const { value } = useContext(Context);
